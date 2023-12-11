@@ -1,0 +1,51 @@
+PATH
+  remote: ../../repos/vonage-ruby-sdk
+  specs:
+    vonage (7.19.0)
+      multipart-post (~> 2.0)
+      phonelib
+      rexml
+      sorbet-runtime (~> 0.5)
+      vonage-jwt (~> 0.2.0)
+      zeitwerk (~> 2, >= 2.2)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    dotenv (2.8.1)
+    jwt (2.7.1)
+    multipart-post (2.3.0)
+    mustermann (3.0.0)
+      ruby2_keywords (~> 0.0.1)
+    phonelib (0.8.5)
+    rack (2.2.8)
+    rack-protection (3.1.0)
+      rack (~> 2.2, >= 2.2.4)
+    rexml (3.2.6)
+    ruby2_keywords (0.0.5)
+    sinatra (3.1.0)
+      mustermann (~> 3.0)
+      rack (~> 2.2, >= 2.2.4)
+      rack-protection (= 3.1.0)
+      tilt (~> 2.0)
+    sorbet-runtime (0.5.11150)
+    tilt (2.3.0)
+    vonage-jwt (0.2.0)
+      jwt (~> 2)
+    webrick (1.8.1)
+    zeitwerk (2.6.12)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  dotenv
+  sinatra
+  vonage!
+  webrick (~> 1.8)
+
+RUBY VERSION
+   ruby 3.0.0p0
+
+BUNDLED WITH
+   2.3.20
